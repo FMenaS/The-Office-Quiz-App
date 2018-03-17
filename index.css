@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+.js-start-page{
+  background: url('https://thoughtcatalog.files.wordpress.com/2015/05/screen-shot-2015-05-04-at-4-52-09-pm.png?resize=747,420&quality=95&strip=all&crop=1') fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  height: 100%;
+  width: 100%;
+}
+.start-prompt{
+  color: #fcfc07;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: -50px;  
+}
+
+.start-button{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 100px;
+}
+
+.js-question-answer-form{
+  padding: 50px 0px;
+  background-color: #2bb6f2;
+}
+
+legend{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.radio-button{
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 30px;
+  color: #333738;
+}
+
+.current-question, .current-score{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.current-question{
+  padding-top: 20px;
+}
+
+.feedback-page{
+  background: #F5F5F5;
+}
+
+.answer-message{
+  width: 100%;
+  height: 100%;
+}
+
+.results-message{
+  width: 100%;
+  height: 100%;
+}
+
+.hidden{
+  display: none;
+}
+
+.quiz-logo{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.js-start-page{
+  margin: 0;
+  text-align: center;
+  padding: 200px 0 200px 0;
+  font-size: 24px;
+}
+
+.start-button{
+  font-size: 20px;
+}
+
+.radio-button{
+  display: block;
+  padding: 10px;
+}
+
+.js-quiz-result{
+  background-color: #9ee5f7;
+}
+
+.js-quiz-result h2, .js-quiz-result h1{
+   font-family: 'Permanent Marker', cursive;
+}  
+
+@media screen and (max-width: 650px) {
+    .quiz-logo{
+        width: 50%;
+    }
+}  
